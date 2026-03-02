@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minecraft 1.5.2 Browser</title>
+    <meta charset="UTF-8">
+    <!-- This script tells the game where to find your assets -->
+    <script type="text/javascript">
+        window.minecraftOpts = [
+            "game_frame", 
+            "assets.epk" // The compressed game textures/sounds
+        ];
+    </script>
+</head>
+<body style="margin:0px; width:100vw; height:100vh; overflow:hidden;" id="game_frame">
+    <!-- The recompiled game logic -->
+    <script type="text/javascript" src="classes.js"></script>
+</body>
+</html>
